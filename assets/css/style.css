@@ -1,0 +1,277 @@
+/* -------------------------- Обнуление встроенных отступов -------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -------------------------- Подключение шрифтов -------------------------- */
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Bold.ttf);
+    font-weight: 700;
+}
+/* -------------------------- Настройка всего тела сайта, указание используемого шрифта -------------------------- */
+body{
+    width: 100%;
+    background: linear-gradient(80.5deg, #83A4BD 11.55%, #A5A2B3 24.51%, #BA929B 33.33%, #BD8689 39.89%, #C46F6A 47.85%, #C65857 55.62%, #BF4145 65.14%, #9C2E37 75.49%, #7A262E 84.66%, #5B1E23 95.55%, #421F23 103.99%, #2D1C22 111.11%);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Gilroy";
+    overflow-x: hidden;
+}
+h2{
+    font-size: 32px;
+}
+/* -------------------------- Настройка всех ссылочных элементов на сайте  -------------------------- */
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.95;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s all;
+}
+/* -------------------------- Настройка шапки сайта, её элементов -------------------------- */
+header{
+    height: 127px;
+    width: 1440px;
+    padding: 0 139px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.1);
+}
+header nav{
+    width: 605px;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 85px;
+    margin-right: 155px;
+}
+header nav a{
+    color: #f2f2f2;
+}
+header div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header div div p{
+    font-size: 18px;
+    color:white;
+    font-weight: 600;
+    margin-left: 10px;
+    line-height: 160%;
+}
+header div div img{
+    width: 18px;
+    height: 18px;
+}
+header div{
+    display: flex;
+    flex-direction: column;
+}
+.OrderCallHeader{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 160%;
+    color:white;
+    display: flex;
+}
+.HeaderFiller{
+    height:127px;
+    width: 1440px;
+}
+/* -------------------------- Настройка первой секции, её элементов -------------------------- */
+.Sec1Div{
+    width: 1440px;
+    height: 674px;
+    display: flex;
+    padding: 0 0 0 139px;
+}
+.MainSecImg{
+    width: 758px;
+    height: 555px;
+    margin-left: -90px;
+}
+h1{
+    font-weight: 700;
+    color: white;
+    font-size: 36px;
+    width: 520px;
+    margin: 50px 0 30px 0;
+    line-height: 130%;
+}
+h1 span{
+    font-weight: 400;
+}
+.Sec1Div .CoolSides{
+    display: flex;
+    margin-top: 100px;
+}
+.Sec1Div .CoolSides div{
+    width: 145px;
+    height: 92px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin: 0 40px 0 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Sec1Div .CoolSides div img{
+    height: 32px;
+    width: 32px;
+}
+.Sec1Div .Sec1Button{
+    padding: 20px 32px;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    background-color: #f2323d;
+    width: 224px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.GetSmeta{
+    margin-bottom: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    width: 350px;
+}
+/* -------------------------- Настройка второй секции, её элементов -------------------------- */
+.Sec2Div{
+    width: 1440px;
+    height: 843px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 56.5px 0 0 138px;
+}
+.Sec2Div h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    width: 400px;
+    line-height: 130%;
+    margin-bottom: 40px; 
+}
+.NameLi{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 20px;
+    margin-right: 87px;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.RowSec2{
+    display: flex;
+    margin-bottom: 60px;
+    font-size: 18px;
+    color: white;
+    line-height: 140%;
+}
+.RowSec2 img{
+    width: 230px;
+    height: 240px;
+    margin-right: 30px;
+}
+.Sec2Div ul{
+    width: 302px;
+    margin-right: 20px;
+    margin-left: 19px;
+}
+.LightningDeffence{
+    width: 288px;
+    line-height: 140%;
+}
+.RowSec2 ul li{
+    margin-bottom: 12px;
+}
+.LightningDeffence2{
+    width: 229px;
+}
+.NameUlLi{
+    margin-left: -20px;
+}
+/* -------------------------- Настройка третьей секции, её элементов -------------------------- */
+.Sec3Div{
+    height: 842px;
+    width: 1440px;
+    padding: 80px 46px;
+}
+/* -------------------------- Настройка четвёртой секции, её элементов -------------------------- */
+.Sec4Div{
+    width: 1440px;
+    height: 564px;
+    background:rgba(255, 255, 255, 0.1);
+    padding: 80px 140px;
+    color: white;
+}
+.Sec4Div h2{
+    font-weight: 600;
+    line-height: 130%;
+}
+.RowSec4{
+    display: flex;
+    margin: 0 -20px;
+    flex-wrap: wrap;
+}
+.RowSec4 div{
+    margin: 40px 20px;
+    width: 360px;
+    height: 120px;
+    border-radius: 6px;
+    display: flex;
+    padding-left: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+.RowSec4 div:hover{
+    border: 1px solid #f2323d;
+    background: #f2323d;
+    transition: 0.8s all;
+}
+.RowSec4 div p{
+    width: 268px;
+    align-self: center;
+}
+.RowSec4 div h2{
+    font-size: 32px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+/* -------------------------- Настройка пятой секции, её элементов -------------------------- */
+.Sec5Div{
+    height: 1070px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+/* -------------------------- Настройка шестой секции, её элементов -------------------------- */
+
+/* -------------------------- Настройка седьмой секции, её элементов -------------------------- */
+
+/* -------------------------- Настройка восьмой секции, её элементов -------------------------- */
+
+/* -------------------------- Настройка подвала сайта, его элементов -------------------------- */

@@ -232,6 +232,7 @@ h1 span{
 .Sec4Div h2{
     font-weight: 600;
     line-height: 130%;
+    margin-bottom: 20px;
 }
 .RowSec4{
     display: flex;
@@ -239,7 +240,7 @@ h1 span{
     flex-wrap: wrap;
 }
 .RowSec4 div{
-    margin: 40px 20px;
+    margin: 20px 20px;
     width: 360px;
     height: 120px;
     border-radius: 6px;
@@ -267,11 +268,198 @@ h1 span{
     width: 1440px;
     display: flex;
     flex-direction: column;
+    padding: 80px 0 0 140px;
+}
+.Sec5Div .FirstRow img{
+    width: 260px;
+    height: 366px;
+    margin: 0 20px;
+}
+.Sec5Div .FirstRow img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.Sec5Div .FirstRow{
+    margin: 0 -20px 80px -20px;
+    display: flex;
+}
+.Sec5Div .FirstRow .LastImage{
+    width: 102px;
+    height: 366px; 
+}
+.Sec5Div h2{
+    color: white;
+    font-weight: 600;
+    line-height: 130%;
+}
+.Sec5Div .ReviewsText{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.Sec5Div .ReviewsText img{
+    margin-left: 40px;
+}
+.Sec5Div .ReviewsText h2{
+    margin-right: 490px;
+}
+.Sec5Div .ReviewsText img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.Sec5Div .ReadyWorkText{
+    display: flex;
+    align-items: center;
+}
+.Sec5Div .SecondRow img{
+    width: 355px;
+    height: 300px;
+    margin: 0 20px;
+}
+.Sec5Div .SecondRow{
+    margin: 0 -20px;
+}
+.Sec5Div .SecondRow .LastImage{
+    width: 100px;
+    height: 300px;
+}
+.Sec5Div .SecondRow img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.Sec5Div .ReadyWorkText h2{
+    margin-right: 560px;
+    margin-bottom: 40px;
+}
+.Sec5Div .ReadyWorkText img{
+    margin-left: 40px;
+}
+.Sec5Div .ReadyWorkText img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
 /* -------------------------- Настройка шестой секции, её элементов -------------------------- */
-
+.Sec6Div{
+    width: 1440px;
+    height: 551px;
+    background-image: url(../images/StupidManBg.png);
+    margin-top: -29px;
+    padding: 169px 0 0 580px;
+    color: white;
+}
+.Sec6Div h2{
+    line-height: 130%;
+    font-weight: 600;
+    width: 620px;
+    margin-bottom: 40px;
+}
+.Sec6Div h2 span{
+    font-weight: 400;
+}
+.Sec6Div input{
+    width: 200px;
+    height: 58px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 5px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-right: 20px;
+}
+::-webkit-input-placeholder{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+.Sec6Div a{
+    width: 200px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #f2323d;
+    border-radius: 6px;
+}
+.Sec6Div .InputAndButtonHolder{
+    display: flex;
+}
 /* -------------------------- Настройка седьмой секции, её элементов -------------------------- */
-
+.Sec7Div{
+    height: 693px;
+    width: 1440px;
+    padding: 80px 0 0 138px;
+    color: white;
+}
+.Sec7Div h2{
+    font-weight: 600;
+    line-height: 130%;
+    width: 650px;
+}
+.AdjustmentsSec7{
+    display: flex;
+    align-items: center;
+}
+.AdjustmentsSec7 img{
+    margin-left: 40px;
+}
+.AdjustmentsSec7 img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.AdjustmentsSec7 h2{
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+.Sec7Div .LastImage{
+    width: 100px;
+    height: 366px;
+}
+.CertificatesAfterMan{
+    margin: 0 -20px;
+    display: flex;
+}
+.CertificatesAfterMan img{
+    margin: 0 20px;
+}
+.CertificatesAfterMan img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
 /* -------------------------- Настройка восьмой секции, её элементов -------------------------- */
-
+.Sec8Div{
+    padding: 80px 0 0 138px;
+    width: 1440px;
+    height: 600px;
+    background:rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.Sec8Div h2{
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.InvisibleText{
+    font-size: 0.5px;
+    color: transparent;
+}
+.QuestionAndAnswer{
+    width: 500px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+    background-color: transparent;
+    height: 80px;
+}
+.QuestionAndAnswer:hover{
+    transition: 0.1s all;
+    cursor: pointer;
+    height: 150px;
+}
+.FlexIndeed{
+    display: flex;
+}
+.ArrowInQuestions{
+    
+}
 /* -------------------------- Настройка подвала сайта, его элементов -------------------------- */

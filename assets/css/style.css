@@ -445,21 +445,82 @@ h1 span{
     color: transparent;
 }
 .QuestionAndAnswer{
-    width: 500px;
+    width: 560px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 6px;
     background-color: transparent;
-    height: 80px;
+    height: 90px;
+    margin-bottom: 15px;
+    padding: 20px 15px 0 20px;
 }
 .QuestionAndAnswer:hover{
-    transition: 0.1s all;
+    transition: 0.3s all;
     cursor: pointer;
     height: 150px;
+}
+.QuestionAndAnswer .ArrowInQuestions{
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/SmallWhiteArrowDown.svg);
+}
+.QuestionAndAnswer:hover .ArrowInQuestions{
+    background-image: url(../images/SmallWhiteArrowTop.svg);
+}
+.QuestionAndAnswer:hover .InvisibleText{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    width: 400px;
+    margin-top: 20px;
 }
 .FlexIndeed{
     display: flex;
 }
-.ArrowInQuestions{
-    
+.QuestionAndArrow{
+    display: flex;
+    justify-content: space-between;
+}
+.Question{
+    font-size: 20px;
+    font-weight: 400;
+}
+.FirstColumn{
+    margin-right: 40px;
 }
 /* -------------------------- Настройка подвала сайта, его элементов -------------------------- */
+footer{
+    width: 1440px;
+    height: 600px;
+    background-image: url(../images/FooterBg.png);
+    padding: 80px 0 0 100px;
+}
+.WhiteSquare{
+    width: 500px;
+    height: 450px;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 60px;
+}
+footer h2{
+    line-height: 130%;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+footer p{
+    font-weight: 400;
+}
+.PhoneNumber{
+    font-size: 20px;
+}
+footer .Mail{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+footer nav{
+    display: flex;
+    margin-top: 40px;
+}
+footer nav img{
+    margin-right: 30px;
+}
